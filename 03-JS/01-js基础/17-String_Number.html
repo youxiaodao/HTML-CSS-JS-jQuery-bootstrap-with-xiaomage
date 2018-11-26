@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//内置对象
+		
+		//String 字符串对象
+		var str = 'hello alex';
+		console.log(str.length)
+		
+		//大写
+		var bigStr = str.toUpperCase()
+		console.log(bigStr)
+		
+		//小写
+		console.log(bigStr.toLowerCase())
+		
+		//第一个参数是以什么样的字符串进行切割 第二个参数是返回的数组的最大长度
+		var newArr = str.split(' ',1)
+		console.log(newArr)
+		
+		//左闭右开 会返回一个新的字符串
+		var a  = str.substring(1,3)
+		console.log(a)
+		
+		
+		//number
+		//1.将number类型转换成字符串类型
+		var num = 132.32522;
+		var numStr = num.toString()
+		console.log(typeof numStr)
+		
+		
+		//四舍五入
+		var newNum = num.toFixed(2)
+		console.log(newNum)
+		
+		
+		
+		
+	</script>
+</html>

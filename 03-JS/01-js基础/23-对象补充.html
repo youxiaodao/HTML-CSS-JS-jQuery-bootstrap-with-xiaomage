@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		var json1 = {
+			name : '张三',
+			age : '李四',
+			fav : '唱歌'
+		};
+		var str1 = '{"name": "Alex", "age": 18}';
+		
+		//将JSON转化为JSON字符串
+		var jsonStr1 = JSON.stringify(json1);
+		console.log(jsonStr1);
+		
+		//将json字符串转化为JSON
+		var json2 = JSON.parse(str1);
+		console.log(json2);
+		json3=JSON.stringify(json2);
+		console.log(json3)
+		
+	</script>
+</html>

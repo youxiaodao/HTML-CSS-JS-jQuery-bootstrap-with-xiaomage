@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{padding: 0;margin: 0;}
+			#box{
+				width: 200px;
+				height: 200px;
+				background: gray;
+			}
+			
+			#child{
+				width: 100px;
+				height: 100px;
+				background: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="box">
+			<div id="child">
+				
+			</div>
+		
+			<input type="text"  value="123" />
+			<br />
+			<input type="password"  value="" />
+			
+		</div>
+	</body>
+	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			//点击事件
+			/*
+			$("#box").click(function(){
+				console.log('click')
+			})
+			
+			//双击事件
+			$("#box").dblclick(function(){
+				console.log('dbclick')
+			})
+			*/
+			/*
+			//鼠标按下不松开
+			$("#box").mousedown(function(){
+				console.log('mousedown');
+			})
+				
+			//鼠标松开
+			$("#box").mouseup(function(){
+				console.log('mouseup');
+			})
+			*/
+			
+			
+//			被选元素和子元素被选中时 会触发函数  移入和移出
+			/*
+			$('#box').mouseover(function(){
+				console.log('mouseover');
+			})
+			$('#box').mouseout(function(){
+				console.log('mouseout');
+			})
+			*/
+			
+			/*
+			//只有被选元素移入的时候 才会触发
+			$('#box').mouseenter(function(){
+				console.log('mouseenter');
+			})
+			$('#box').mouseleave(function(){
+				console.log('mouseleave');
+			})
+			*/
+			
+			/*
+			$("#box").mousemove(function(){
+				console.log('mousemove');
+			})
+			
+			*/
+			
+			/*
+			$('input[type=text]').focus(function(){
+				console.log($(this).val())
+			})
+			
+			
+			
+			$('input[type=text]').blur(function(){
+				console.log($(this).val())
+			})
+			*/
+			
+			$('input[type=password]').keydown(function(e){
+				console.log(e.keyCode);
+				
+				if(e.keyCode == 13){
+					console.log('enter被按下了')
+				}
+				
+				
+//				console.log($(this).val())
+			})
+			$('input[type=password]').keyup(function(){
+				console.log($(this).val())
+			})
+
+			
+		})
+		
+	</script>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*#brother{
+				color: red;
+				font-size:24px;
+			}*/
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li id="brother">路飞学城1</li>
+			<li><a href="https://www.luffycity.com">路飞学城2</a></li>
+			<li class="li3">路飞学城3</li>
+			<li>路飞学城4</li>
+			<li>路飞学城5</li>
+			
+			
+		</ul>
+	</body>
+	<script src="../jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		
+		//使用jquery的时候 要有入口函数 回调函数
+		$(document).ready(function(){
+			
+			//基础选择器
+			//1.id选择器
+			console.log($('#brother'));
+			
+			$('#brother').css('color','red');
+			
+			//2.标签选择器
+			//设置一个值
+//			$('a').css('color','yellow')
+//          设置多个值 设置多个值得时候使用对象存储 key:value
+			$('a').css({'color':'yellow','font-size':'24px'});
+			
+			//3.类选择器
+			
+			$('.li3').css('background','green');
+			
+			//4.通配符选择器 * 使用不是很频繁
+			
+			console.log($('*'));
+			//清空整个界面的dom元素
+			// $('*').html('');
+			
+			
+			
+			
+			
+			
+			
+			
+		})
+		
+	</script>
+</html>

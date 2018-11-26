@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	</head>
+	<body>
+		<div style="position: relative;">
+			
+	
+			<div id="box" style="width: 200px;height: 200px;border: 1px solid red; padding: 10px;margin: 10px;position: absolute;top: 20px;left: 30px;">
+				
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		window.onload = function(){
+			var box = document.getElementById('box')
+			
+			//占位宽 高 Top Left  
+			
+			/*
+			 * offsetTop: 如果盒子没有设置定位 到浏览器的顶部的距离,如果盒子设置定位，那么是以父盒子为基准的top值
+			 * offsetLeft： 如果盒子没有设置定位 到浏览器的左部的距离，如果盒子设置定位，那么是以父盒子为基准的left值
+			 	offsetWidth 内容+padding+border
+			 * */
+			console.log(box.offsetTop)
+			console.log(box.offsetLeft)
+			console.log(box.offsetWidth)
+			console.log(box.offsetHeight)
+			
+		}
+		
+	</script>
+</html>

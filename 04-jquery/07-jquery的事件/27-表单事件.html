@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    .show{
+        color: red;
+    }
+    </style>
+    
+</head>
+<body>
+    <form action="https://www.luffycity.com">
+        <select name="sweets" id="" multiple=''>
+            <option value="">巧克力</option>
+            <option value="" selected=''>糖果</option>
+            <option value="">焦糖</option>
+            <option value="" selected=''>曲奇饼</option>
+            <option value="">烧饼</option>
+            <option value="">麦香饼</option>
+            <option value="">曲奇饼2</option>       
+        </select>
+
+        <input type="text" value="hello" id='target'>
+        <input type="submit" value="Luffy"/>
+        <input type="button" name="" id="" value="按钮" />
+		
+    </form>
+
+    <input id="other" type="text" value="Trigger the handler">
+     
+  
+
+    <div class="show"></div>
+
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script>
+
+        $(function() {
+        	
+        	
+        		//change()s事件
+        		
+        		//此事件仅限于input元素  textarea select
+            $('select').change(function(){
+            		console.log($('select option:selected').text());
+				
+				$('.show').text($('select option:selected').text());
+					
+            })
+            
+            
+//          select()  仅限于用在 input type=text  textarea
+			$('#other').select(function(){
+				console.log($(this).val());
+			})
+			
+			
+			$('form').submit(function(e){
+//				
+				//阻止默认事件
+				e.preventDefault();
+				
+				//跟服务端有很大挂钩  下节课 咱们简单的来玩一下ajax技术
+				
+				alert(1111);
+			})
+        })
+    
+    
+    
+    </script>
+    
+</body>
+</html>

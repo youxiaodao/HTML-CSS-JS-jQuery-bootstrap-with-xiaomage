@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{padding: 0;margin: 0;}
+			ul{list-style: none;}
+			
+			#box{
+				/*图片的宽高 240px  180px*/
+				width: 240px;
+				height: 180px;
+				position: relative;
+				margin: 50px auto;
+				overflow: hidden;
+				
+
+			}
+			
+			ul{
+				width: 960px;
+				position: absolute;
+			}
+			ul li{
+				float: left;
+								
+			}
+			
+			p{
+				position: absolute;
+				left: 80px;
+				bottom: 30px;				
+			}
+			p span{
+				color: red;
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				text-align: center;
+				cursor: pointer;
+
+			}
+			p span.active{
+				color: white;
+				background: greenyellow;
+			}
+			
+		
+			
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<ul>
+				<!--显示轮播的图片-->
+				<!--<li><img src="01.jpg" alt="" /></li>
+				<li><img src="01.jpg" alt="" /></li>
+				<li><img src="01.jpg" alt="" /></li>
+				<li><img src="01.jpg" alt="" /></li>-->
+				
+				
+				
+			</ul>
+			<p>
+				<!--显示索引-->
+			</p>
+			
+		
+			
+			
+		</div>
+		<button id="play">轮播吧！</button>
+		<button id="stop">暂停！</button>
+		
+	</body>
+	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+			//1.获取本地的图片数据 以后再后面的课程中这些数据会从后端服务器获取
+			
+			var imgArr = ['./01.jpg','./02.jpg','./03.jpg','./04.jpg'];
+			
+			
+			//2.动态的生成图片
+			
+			for(var i = 0; i < imgArr.length;i++){
+				
+				$('ul').append("<li><img src="+imgArr[i]+"></li>")
+			}
+		
+			//3.生成索引
+			
+			var str = '';
+			$('li').each(function(i,ele){
+				
+				str += "<span>"+(i+1)+"</span>"
+				
+			});
+
+			console.log(str);
+			
+			$('p').html(str);
+			
+			//4.默认设置索引的第一个active
+			
+			$('span:first').addClass('active');
+			
+			var index = 0;
+			
+			//5.点击索引
+			$('span').click(function(){
+				
+				$(this).addClass('active').siblings('span').removeClass('active');
+				
+				//获取我当前点击的索引
+				index = $(this).index()
+				
+//				$('ul').css("left",-240*index);
+
+				$('ul').animate({
+					left:-240*index
+				},100)
+				
+			})
+			
+			
+			var timer = null;
+			$('#play').click(function(){
+				
+				//0.开启定时器  1.索引跟着走 2.图片跟着走
+				
+				timer = setInterval(next,1000)
+				
+				
+				function next(){
+					
+					
+					if(index == $('li').length-1){
+						
+						//图片到头了了 到第四张
+						
+						index = 0;
+						//修改span的第一个active
+						$('p span').eq(index).addClass('active').siblings('span').removeClass('active');
+						
+						//修改ul的样式
+						$('ul').css('left',0);
+					}else{
+						index++;
+						console.log(index);
+						//修改后三个span标签的active
+						$('p span').eq(index).addClass('active').siblings('span').removeClass('active');
+						$('ul').css('left',-240*index);
+						
+					}
+					
+					
+					
+				}
+				
+				
+			})
+			
+			
+			
+			$("#stop").click(function(){
+				clearInterval(timer);
+			})
+			
+			
+			
+			
+		})
+	
+	</script>
+</html>

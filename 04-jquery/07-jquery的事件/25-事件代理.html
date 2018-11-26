@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul>
+			<li class="luffy">路飞</li>
+			<li>路飞</li>
+			<li>路飞</li>
+			
+		</ul>
+	</body>
+	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			//先点击
+//			$('ul>li').bind('click',function(){
+//				console.log($(this));
+//			})
+//			$('ul>li').click(function(){
+//				console.log($(this));
+//			})
+
+
+			//事件代理 自己完成不了当前的点击事件，交给父级元素来做这件事件
+			//父级.on('事件名字'，'点击当前的标签元素'，fn)
+			
+			$('ul').on('click','#namei,.luffy',function(){
+				console.log(this);
+			})
+			//后来
+			$('ul').append('<a id="namei">娜美</a>')
+			
+			
+		})
+		
+	</script>
+</html>

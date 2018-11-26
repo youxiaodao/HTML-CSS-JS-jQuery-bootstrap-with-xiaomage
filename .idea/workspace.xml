@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4270458-c3c8-4b48-86ee-317877f66841" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="15-操作input中的value值.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-jquery/03-jquery属性操作/15-操作input中的value值.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="27-为什么要清除浮动.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/27-为什么要清除浮动.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="32-overflow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/32-overflow.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="31-清除浮动3-overflowhidden.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/31-清除浮动3-overflowhidden.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="30-清除浮动3-伪元素清除法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/30-清除浮动3-伪元素清除法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-900" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="22-浮动.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/22-浮动.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="23-浮动的元素脱标.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/23-浮动的元素脱标.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="24-浮动元素互相贴靠.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/24-浮动元素互相贴靠.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="25-浮动元素字围效果.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/25-浮动元素字围效果.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="26-浮动元素紧凑效果.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/代码/26-浮动元素紧凑效果.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/02-CSS/代码/36-文本属性和字体属性.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/18- 使用border制作小三角.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/42-background-img.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/50-相对定位的特性.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/51-相对定位的用途.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/53-绝对定位.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/54-绝对定位参考点.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/55-绝对定位以盒子作为参考点.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/56-绝对定位以父辈盒子作参考点2.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/57-绝对定位的盒子无视父辈的padding.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/58-绝对定位盒子居中.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/64-从父现象.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/65-z-index的用途.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/61-固定定位_固定导航栏.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/40-超链接美化案例.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/04-高级选择器.html" />
+        <option value="$PROJECT_DIR$/03-JS/01-js基础/01-人生中的第一个js文件.html" />
+        <option value="$USER_HOME$/Desktop/ToDoList—最简单的待办事项列表_files/index.js" />
+        <option value="$PROJECT_DIR$/04-jquery/05-jquery的位置属性/18-防淘宝导航栏案例.html" />
+        <option value="$PROJECT_DIR$/04-jquery/06-jquery的筛选方法.html/18-jquery的常用筛选方法.html" />
+        <option value="$PROJECT_DIR$/04-jquery/06-jquery的筛选方法.html/21-焦点轮播图.html" />
+        <option value="$PROJECT_DIR$/04-jquery/06-jquery的筛选方法.html/22-动态实现轮播图.html" />
+        <option value="$PROJECT_DIR$/04-jquery/07-jquery的事件/24-事件的绑定和移除.html" />
+        <option value="$PROJECT_DIR$/04-jquery/07-jquery的事件/25-事件代理.html" />
+        <option value="$PROJECT_DIR$/04-jquery/07-jquery的事件/26-鼠标事件.html" />
+        <option value="$PROJECT_DIR$/04-jquery/07-jquery的事件/27-表单事件.html" />
+        <option value="$PROJECT_DIR$/04-jquery/07-jquery的事件/23-jquery的事件对象和事件冒泡.html" />
+        <option value="$PROJECT_DIR$/01-HTML/代码/05-常用标签二-form.html" />
+        <option value="$PROJECT_DIR$/03-JS/01-js基础/08-switch.html" />
+        <option value="$PROJECT_DIR$/03-JS/01-js基础/09-while.html" />
+        <option value="$PROJECT_DIR$/03-JS/01-js基础/10-do_while.html" />
+        <option value="$PROJECT_DIR$/03-JS/01-js基础/13-数组.html" />
+        <option value="$PROJECT_DIR$/03-JS/01-js基础/21-正则表达式.html" />
+        <option value="$PROJECT_DIR$/03-JS/01-js基础/23-对象补充.html" />
+        <option value="$PROJECT_DIR$/03-JS/02-jsDom/01-模态框案例.html" />
+        <option value="$PROJECT_DIR$/03-JS/02-jsDom/02-点击有惊喜.html" />
+        <option value="$PROJECT_DIR$/03-JS/02-jsDom/06-获取当前的时间.html" />
+        <option value="$PROJECT_DIR$/03-JS/02-jsDom/07-匀速运动.html" />
+        <option value="$PROJECT_DIR$/03-JS/02-jsDom/08-5秒之后关闭广告.html" />
+        <option value="$PROJECT_DIR$/03-JS/02-jsDom/轮播图.html" />
+        <option value="$PROJECT_DIR$/03-JS/02-jsDom/10-无缝轮播.html" />
+        <option value="$PROJECT_DIR$/03-JS/03-jsBOM/03-其他的BOM对象和方法.html" />
+        <option value="$PROJECT_DIR$/03-JS/03-jsBOM/07-scroll系列.html" />
+        <option value="$PROJECT_DIR$/04-jquery/01-jquery选择器/03-jquery的基础选择器.html" />
+        <option value="$PROJECT_DIR$/04-jquery/02-jquery效果/10-jquery的效果-slide.html" />
+        <option value="$PROJECT_DIR$/04-jquery/02-jquery效果/11-jquery的效果-fade.html" />
+        <option value="$PROJECT_DIR$/04-jquery/02-jquery效果/12-jquery的效果-动画.html" />
+        <option value="$PROJECT_DIR$/04-jquery/02-jquery效果/13-右下角弹出广告.html" />
+        <option value="$PROJECT_DIR$/04-jquery/03-jquery属性操作/14-jquery的属性操作.html" />
+        <option value="$PROJECT_DIR$/04-jquery/03-jquery属性操作/15-操作input中的value值.html" />
+        <option value="$PROJECT_DIR$/02-CSS/代码/22-浮动.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1364" />
+    <option name="height" value="766" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="M5课件" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M5课件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="M5课件" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M5课件" type="462c0819:PsiDirectoryNode" />
+              <item name="01-HTML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="M5课件" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M5课件" type="462c0819:PsiDirectoryNode" />
+              <item name="02-CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="M5课件" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M5课件" type="462c0819:PsiDirectoryNode" />
+              <item name="02-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="代码" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\路飞学城-python中级\课程下载\M5课件\04-jquery\06-jquery的筛选方法.html" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.15-操作input中的value值.html">
+    <configuration name="10-jquery的效果-slide.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/M5课件/04-jquery/02-jquery效果/10-jquery的效果-slide.html" />
+    <configuration name="11-jquery的效果-fade.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/M5课件/04-jquery/02-jquery效果/11-jquery的效果-fade.html" />
+    <configuration name="12-jquery的效果-动画.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/M5课件/04-jquery/02-jquery效果/12-jquery的效果-动画.html" />
+    <configuration name="13-右下角弹出广告.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/M5课件/04-jquery/02-jquery效果/13-右下角弹出广告.html" />
+    <configuration name="15-操作input中的value值.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/M5课件/04-jquery/03-jquery属性操作/15-操作input中的value值.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.10-jquery的效果-slide.html" />
+      <item itemvalue="JavaScript Debug.11-jquery的效果-fade.html" />
+      <item itemvalue="JavaScript Debug.12-jquery的效果-动画.html" />
+      <item itemvalue="JavaScript Debug.13-右下角弹出广告.html" />
+      <item itemvalue="JavaScript Debug.15-操作input中的value值.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.15-操作input中的value值.html" />
+        <item itemvalue="JavaScript Debug.13-右下角弹出广告.html" />
+        <item itemvalue="JavaScript Debug.12-jquery的效果-动画.html" />
+        <item itemvalue="JavaScript Debug.11-jquery的效果-fade.html" />
+        <item itemvalue="JavaScript Debug.10-jquery的效果-slide.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4270458-c3c8-4b48-86ee-317877f66841" name="Default" comment="" />
+      <created>1532224663728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532224663728</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/03-JS/01-js基础/22-元字符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/01-js基础/20-定时器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/01-模态框案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/02-点击有惊喜.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/03-简易留言板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/05-防淘宝搜索框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/06-获取当前的时间.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/07-匀速运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/01-js基础/23-对象补充.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/08-5秒之后关闭广告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/images/03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/images/04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/09-小米滚动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/images/01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/images/02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/轮播图.html" />
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/10-无缝轮播.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/03-jsBOM/03-其他的BOM对象和方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/03-jsBOM/02-open_close.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/03-jsBOM/04-client系列.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/03-jsBOM/01-BOM输出.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/03-jsBOM/07-scroll系列.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/03-jsBOM/06-offset系列.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/02-jsDom/04-选项卡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/01-使用js的一些疼处.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS/03-jsBOM/05-屏幕的可视区域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/02-jquery文件的引入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/03-jquery的基础选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/02-jquery效果/13-右下角弹出广告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/02-jquery效果/12-jquery的效果-动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/02-jquery效果/11-jquery的效果-fade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/02-jquery效果/10-jquery的效果-slide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/02-jquery效果/09-jquery的效果-显示隐藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/08-jquery对象和DOM对象的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/07-jquery的筛选选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/06-jquery的属性选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/04-jquery的层级选择器.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/01-jquery选择器/05-jquery的基本过滤选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/03-jquery属性操作/14-jquery的属性操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3375">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/04-jquery的文档操作/16-jquery的文档操作.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/07-jquery的事件/23-jquery的事件对象和事件冒泡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-jquery/03-jquery属性操作/15-操作input中的value值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/32-overflow.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/31-清除浮动3-overflowhidden.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/30-清除浮动3-伪元素清除法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/23-浮动的元素脱标.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/24-浮动元素互相贴靠.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/25-浮动元素字围效果.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/26-浮动元素紧凑效果.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/27-为什么要清除浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/代码/22-浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

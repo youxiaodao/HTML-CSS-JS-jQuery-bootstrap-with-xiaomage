@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>数据类型转换</title>
+</head>
+<body>
+	<span>小马哥</span>
+	
+	<script type="text/javascript">
+		
+		// 1.将数字类型 转换成字符串类型
+
+		var n1 = 123;
+		var n2 = '123';
+		var n3 = n1+n2;
+		// 隐式转换
+		console.log(typeof n3);
+
+		// 强制类型转换 String() toString()
+		var str1 = String(n1);
+		console.log(typeof str1);
+
+		var num = 234;
+		console.log(num.toString())
+
+
+		// 2.将字符串类型 转换成数字类型
+
+		var  stringNum = '789.123wadjhkd';
+		var num2 =  Number(stringNum);
+		console.log(num2)
+
+
+		// parseInt()可以解析一个字符串 并且返回一个整数
+		console.log(parseInt(stringNum))
+
+		console.log(parseFloat(stringNum));
+
+
+		// 在我们js中所有的数据类型 都被转化为boolean类型
+
+		var b1 = '123';
+		var b2 = 0;
+		var b3 = -123
+
+		var b4 = Infinity; //
+		var b5 = NaN;
+
+		var b6; //undefined
+		var b7 = null;
+
+		// 非0真1
+		console.log(Boolean(b7))
+
+
+	</script>
+	
+</body>
+</html>

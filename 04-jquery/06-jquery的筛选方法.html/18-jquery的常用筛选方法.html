@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			li.active{
+				font-size: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li class="danger">1</li>
+			<li>2</li>
+			<li class="danger">3</li>
+			<li>4</li>
+			<a href="#">百度</a>
+			
+			<a href="#" id="anchor">百度</a>
+			
+		</ul>
+	</body>
+	
+	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+			console.log($('li'));
+			
+			//jquery的遍历方法 .each()
+			
+			$('ul').children().each(function(index,ele){
+				
+				console.log(ele);
+				console.log(index);
+				
+				var isDanger = $(this).hasClass('danger');
+				
+				if(isDanger){
+					$(this).css('color','red');
+					
+				}else{
+//					$(this).css('font-size','20px');
+
+				}
+				
+			})
+			
+			
+			console.log($('ul').children('.danger'))
+			console.log($('li'))
+			console.log($('a').parent())
+			
+			console.log($('li').last().prev());
+			console.log($('li').last().prevAll());
+			
+			
+			//siblings
+			
+			
+			console.log($('#anchor').siblings('a'))
+			
+			$('li').hover(function(){
+				$(this).addClass('active').siblings('li').removeClass('active');
+			})
+		})
+	</script>
+</html>

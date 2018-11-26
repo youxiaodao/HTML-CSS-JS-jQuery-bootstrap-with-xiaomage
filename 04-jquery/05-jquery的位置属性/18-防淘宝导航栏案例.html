@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{padding: 0;margin: 0;}
+			div{width: 100%;}
+			div img{width: 100%;}
+		
+			.nav{display: none;}
+						
+		</style>
+	</head>
+	<body>
+		
+		<div class="top">
+			<img src="images/top.jpg" alt="" />
+			
+		</div>
+		<div class="nav">
+			<img src="images/nav.jpg"/>
+		</div>
+		<div class= 'taobao'>
+			<img src="images/taobao1.png"/>
+		</div>
+		<script src="./jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+            // 入口，先加载文档树
+			$(function(){
+			    // 获取搜索栏高度
+				var h = $('.top').height();
+				// 滚动条事件
+				$(document).scroll(function(){
+				    // 获取当前实时滚动条高度
+					var scollTp = $(document).scrollTop();
+					// 如果滚动的高度大于了搜素栏的高度，就设置搜索栏为固定属性
+					if(h<scollTp){
+						$('.nav').css({display:'block',position:'fixed',top:0});
+					}else{
+						$('.nav').css({display:'none',position:'static',top:0});
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

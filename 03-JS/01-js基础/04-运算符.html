@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>运算符</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		// 1.赋值运算符
+		// var money = prompt('请输入金额....');
+		// var saveMoney = money * (1+0.02);
+		// console.log(saveMoney)
+
+
+		// 2.算数运算
+		var a = 10;
+		var b = 9;
+		var sum = a  + b;
+		var min = a - b;
+
+		// + - * / %
+
+		var div = a /b;
+
+		var lef = a % b;
+		console.log(lef)
+
+		// 3.复合运算符
+		var c = 7,d = 8;
+
+		// d = c + d;
+
+		// d+=c;
+		// console.log(d)
+		// d++; //d = d+1
+		// console.log(d)
+
+
+		// 自增 自减
+		// d++ :先赋值后++ 先将d的值赋值给c1 然后再让d加上1 对d赋值
+		var c1  = d++;
+		console.log(c1) //8
+		 console.log(d); //9
+
+		 // ++d:先相加后赋值
+		var c2 = ++d;
+		console.log(c2) //10
+
+		// 3.比较运算符
+
+		// > ,<, >=, <=,== ,===
+		console.log(5>6)	
+
+		// 隐式转换== 比较的是值的大小。=== 是类型和值都进行比较
+		console.log("5"===5)
+
+		// 4.逻辑运算符
+		// &&   and || or
+
+		// && 都真为真 只要有一个是假就为假
+		console.log(false && false)
+
+		// || 有真就真。或者的意思
+
+		console.log(false || false)
+
+
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<button id="btn">演示</button>
+		<div id="box">
+			
+		</div>
+	</body>
+	<script src='jquery-3.2.1.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+//			$('#btn').click(function(){
+// 				 //只传一个url，导入的index.html文件含有多个传递参数，类似于：index/html?name='张三'
+// 				 $('#box').load('./test.html');
+//			})
+
+			
+			/*
+			//get请求
+			$.ajax({
+				url:'./data.json',
+				type:'get',
+//				dataType:'json',
+				success:function(data){
+					
+					console.log(data);
+					
+				},
+				error:function(){
+					
+				}
+			})
+			*/
+			
+			/*
+			//注意：post请求无法演示 马上学django 就可以演示了
+			$.ajax({
+				url:"/course",
+				type:'post',
+				data:{
+					username:'zhangsan',
+					password:'123'
+				},
+				success:function(data){
+					
+					if(data.state == 'ok'&& data.status =='200'){
+						//登录成功
+					}
+					
+				},
+				error:function(err){
+					console.log(err);
+				}
+			})
+			*/
+		})
+	</script>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			span.active{
+				font-size: 30px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<p>路飞学城</p>
+			
+		</div>
+		
+		
+		<button>获取</button>
+		
+		<ul>
+			<li class="luffy">路飞</li>
+			<li class="luffy2">路飞</li>
+			<li class="luffy3">路飞</li>
+			<li class="luffy4">路飞</li>
+			
+		</ul>
+		
+		<span class="span1">
+		    路飞吧！！！
+		</span>
+		
+		<div id="box2">
+			哈哈
+			<p>我是一个段落</p>
+			<a href="">百度一下</a>
+			<input type="text" value="嘿嘿" name=""/>
+			<button id="btn">GET</button>
+		</div>
+	</body>
+	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		
+		
+		$(function(){
+			
+			$('button').click(function(){
+				//jquery的属性操作  html属性操作 attr()
+				//attr()如果有一个参数，表示获取值
+			
+				$('#box p').text($('#box').attr('id'))
+			
+				
+			})
+			// 如需检索 HTML 属性，请使用 attr() 方法代替。
+            //
+			// 如需移除属性，请使用 removeProp() 方法。
+			
+			//attr()如果设置两个值 表示设置属性
+			$('#box').attr('class','foo');
+			//设置多个值 使用对象存储，如果设置多个类名 不能使用attr()
+			$('#box').attr({'class':'foo2',name:'luffy'});
+			
+			//删除一个属性
+			/*
+			$('#box').removeAttr('name');
+			$('#box').removeAttr('class');
+			*/
+			$('#box').removeAttr('name class');
+			
+			
+			
+			
+			//DOM属性操作
+			//获取的是第一个元素的class值
+			console.log($('li').prop('class'));
+			
+			//设置值
+			
+			$('li').first().prop({'name':'app','name2':'app2'});
+			console.log($('li').first());
+			
+			//删除dom对象的name属性
+			$('li').first().removeProp('name','name2');
+			
+			console.log($('li').prop('name'	));
+			console.log($('li').prop('name2'	));
+			
+			
+			
+			//3.addClass() removeClass() 添加类 和删除类
+			
+			$('span').addClass('span2 span3')
+			
+			$('span').removeClass('span2')
+			var isBig = true;
+			
+			$('span').click(function(){
+				
+				if(isBig){
+					$(this).addClass('active');
+					isBig = false;
+				}else{
+					$(this).removeClass('active');
+					isBig = true;
+					
+				}		
+				
+			})
+			
+			//4.值属性的操作 text() html() val()
+			
+			//仅仅是获取文本
+			console.log($('#box2').text());
+			//获取的所有
+			console.log($('#box2').html());
+			
+			
+			//设置值
+//			$('#box2').text("<a>路飞学城</a>");
+//			$('#box2').html("<a href='#'>路飞学城</a>");
+			
+			
+			//获取值
+			console.log($('input').val());
+			$('input').val('嘿嘿你个大头鬼')
+			
+			$('#btn').click(function(){
+				var val = $('input').val();
+				
+				$("#box2").text(val);
+			})
+			
+			//表单控件使用的一个方法
+			$('input').change(function(){
+				console.log($(this).val());
+			})
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		})
+		
+	</script>
+</html>

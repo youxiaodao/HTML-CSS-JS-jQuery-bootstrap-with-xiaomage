@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//1.数组的合并  concat()
+		var north = ['北京','山东','天津'];
+		var south = ['东莞','深圳','上海'];
+		
+	   	var newArr = north.concat(south);
+	   	console.log(newArr)
+	   	
+	   	
+	   	//2.将数组转换成字符串
+	   	var score = [98,78,76,100,0];
+	   	
+	   	//toString() 直接转换为字符串  每个元素之间使用逗号隔开
+	   	
+	   	var str = score.toString();
+	   	console.log(str)
+	   	
+	   	
+	   	//join()方法  将数组中的元素使用指定的字符串连接起来，它会形成一个新的字符串
+	   	
+	   	var str2 = score.join('|')
+	   	console.log(str2)
+	   	
+	   	//3.查找下标
+	   	//indexOf() 正向查找
+	   	//如果查找的值不在数组中则返回-1
+	   	var index = score.indexOf(101)
+	   	console.log(index)
+	   	
+	   	//反向查找 
+	   	
+	   	var lastIndex = score.lastIndexOf(78);
+	   	console.log(lastIndex)
+	   	
+	   	
+	   	//数组的排序 	
+	   var names = ['alex','xiaoma','tanhuang','abngel'];
+	   
+	   //4.反转数组
+	   var reverseNames = names.reverse();
+	   console.log(reverseNames)
+	   console.log(names)
+	   
+	   //sort():按照26个字母排序 数组
+	
+	  var enames  = names.sort();
+	  console.log(enames)
+	  console.log(names)
+	  
+//	  if(enames===names){
+//	  	alert(2)
+//	  }
+	  
+	  
+	  //5.移除元素和添加元素
+	  //移除我们的第一个元素 返回的结果是移除的第一个元素 原来数组中的第一个元素 被移除掉了  
+	  var firstName = names.shift()
+	  console.log(firstName)
+	  console.log(enames)
+	  console.log(names)
+	  
+	  //unshift()向数组的开头添加一个或者多个元素，并返回新的长度
+	  var newLength = names.unshift('shanshan');
+	  console.log(newLength)
+	  console.log(names)
+	  
+	  
+	  //push() pop()
+	  
+	  
+	  //push()  向数组的末尾添加一个或者多个元素，并返回新的长度
+	  var newNames = names.push('老村长','嘿嘿嘿')
+	  console.log(newNames)
+	  console.log(names)
+	  
+	  
+	  var a = names.pop()  //a 是被删除的元素
+	  console.log(a)
+	  console.log(names) //pop()删除数组的最后一个元素
+	  
+	  
+	  var str = 'hello luffy';
+	  
+	  console.log(str.split('').reverse().join(''))
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	   
+	   
+	   	
+	   	
+	</script>
+</html>

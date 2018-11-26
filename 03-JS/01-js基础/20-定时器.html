@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		var n = 0;
+		var time = null;
+		
+		time = setInterval(function(){
+			n++;
+			console.log(n)
+			
+		},1000)
+		
+		
+		//setTimeout(code,1000)
+		
+		setTimeout(function(){
+			console.log(time)
+			
+			window.clearInterval(time)
+		},5000)
+	</script>
+</html>
